@@ -30,7 +30,7 @@ void FindQuantity(int[] array)
     for (int i = 0; i < array.Length; i++)
 
     {
-        if ( i % 2 == 0)
+        if (array [i] % 2 == 0)
         guantity = guantity + 1;
     }
     Console.WriteLine($"Колличество четных чисел в массиве {guantity}");
